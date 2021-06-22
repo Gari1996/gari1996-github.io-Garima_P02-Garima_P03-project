@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 80%;
+    margin:auto;
+    background-color: rgb(209, 212, 216);
+border-style: solid;
+    box-shadow: 3px 3px 3px rgb(34, 29, 10);
+}
+header { background-color: #000033;
+    color: #FFFFFF;
+    font-family:Georgia, 'Times New Roman', Times, serif, serif; 
+    text-indent: 2.5em;
+    font-style: italic;
+    
+}
+h1 { line-height: 200%;
+background-image: url(images/Jaipur_Montage.png);
+background-repeat: no-repeat;
+background-position: right;
+padding-left:1em;
+height: 72px;
+box-shadow:3px 3px 3px  rgb(34, 29, 10);
+text-shadow:2px 2px 2px  rgb(221, 150, 150);
+font-size: xx-large;
+margin-bottom: 0;
+margin-top: 0;
+
+}
+nav{
+    font-weight: bold;
+    background-color: #a7b8c0; 
+    padding: .5em .5em .5em 2em;
+}
+#imagesize{
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 300px;
+        background-image: url(images/rajasthan.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border:darkblue dotted;
+        background-color:rgb(157, 227, 245);
+}
+
+body { background-color: #741824;
+    color: #2e2a2ae8;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #52194f,  #a7ac61, #660734); 
+
+   
+    font-weight: bold;
+}
+nav a:link{
+    color:rgb(90, 30, 7);
+}
+nav a:visited{
+    color:rgb(6, 5, 90);
+}
+nav a:hover{
+    color:#d5f80b;
+    background-color: rgb(75, 48, 228);
+}
+nav a:focus{
+    color:#943b3b;
+    
+}
+nav a{
+    text-decoration: none
+}
+#inside{
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin-top: 0;
+    background-image: linear-gradient(to bottom, #f3f579, #f9fcd5, yellow);  
+}
+
+h2{
+    background-color: rgb(233, 171, 95);
+    font-family:cursive;
+    text-indent: 15em;
+    text-shadow: rgb(60, 66, 5) 0.05em 0.05em 0.05em ;
+}
+#jai{
+        float:right;
+        margin: 10px;
+        border-style:hidden;
+        box-shadow: slategray 1em 1em 1em;
+    
+}
+.italic{
+    font-style: italic;
+
+}
+.formatting{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#arts{
+  
+    padding: 0.5em 2em 0.5em 18em;
+}
+.dance{
+    margin-top: 0px;
+font-weight: bold;
+font-size: 1.25em;
+font-style: italic;
+font-family:monospace;
+background-color: burlywood;
+}
+.dance1{
+    margin-top: 0px;
+font-weight: bold;
+font-size: 1.5em;
+font-style: italic;
+font-family:monospace;
+color: #f51d82;
+}
+h3{
+    background-color: rgb(233, 171, 95);
+    font-family:cursive;
+    text-indent: 22em;
+    text-shadow: rgb(60, 66, 5) 0.05em 0.05em 0.05em ;
+}
+.folk{
+    
+    border-style: dotted;
+   float:left;
+    margin: 15px;
+    box-shadow: slategray 0.5em 0.5em 0.5em;
+    
+   
+}
+img{
+    border-radius: 50%;
+}
+.arts{
+    margin-left: 20em;
+    padding: 0.50em 0.50em 0.50em 0.50em ;
+}
+
+.arts1{
+  
+    padding: 0.50em 0.50em 0.50em 0.50em ;
+}
+.textal{
+    text-indent: 25em;
+}
+.layout{text-indent: 25em;
+               
+                  clear: left;
+        
+}
+.stylee{
+    font-style: italic;
+    font-size: 1.25em;
+}
+#jantar{
+    float:left;
+    margin: 18px;
+    border-style:hidden;
+    box-shadow: slategray 1em 1em 1em;
+}
+.texting{
+    text-indent: 4.95em;
+}
+.edit{
+    font-style: italic;
+    text-align: left;
+    background-color: #a7b8c0;
+    font-family: cursive;
+}
+
+#imagesize1{
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 300px;
+        background-image: url(images/artt.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border:darkblue dotted;
+        background-color:rgb(157, 227, 245);
+}
+
+#imagesize2{
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 300px;
+        background-image: url(images/hawamahal.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border:darkblue dotted;
+        background-color:rgb(157, 227, 245);
+}
+
+#imagesize3{
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 300px;
+        background-image: url(images/fun_places.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border:darkblue dotted;
+        background-color:rgb(157, 227, 245);
+}
+
+.head{
+    text-indent: 6em;
+}
+.textal1{
+    text-indent: 8em;
+ 
+  color: #1c2257;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-bottom: 0.15em;
+}
+.textal2{
+    text-indent: 7em;
+ 
+  color: #1c2257;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-bottom: 0.15em;
+}
+
+.textal3{
+    text-indent: 8.5em;
+ color: #1c2257;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-bottom: 0.15em;
+}
+.astro{
+    background-color: rgb(233, 171, 95);
+    text-indent:0em;
+    margin-bottom: 0em;
+}
+.folk1{
+    border-style: dotted;
+    float:left;
+     margin-left: 1px;
+     box-shadow: slategray 0.5em 0.5em 0.5em;
+background-position:right;
+    } 
+    .folk2{
+        border-style: dotted;
+        float:left;
+         margin-left: 1px;
+         box-shadow: slategray 0.5em 0.5em 0.5em;
+    background-position:right;
+        } 
+        .formatting1{
+            padding: 0.5em 2em 0.5em 18em;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        } 
+
+        .formatting2{
+            padding: 0.5em 2em 0.5em 18em;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        } 
+        .formatting3{
+            padding: 0.5em 2em 0.5em 18em;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .formatting4{
+            padding: 0em 2em 0em 18em;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .folk3{
+            border-style: dotted;
+            float:left;
+             margin-left: 1px;
+             box-shadow: slategray 0.5em 0.5em 0.5em;
+        background-position:right;
+        margin-top: 0em;
+            } 
+
+            
+        .folk4{
+            border-style: dotted;
+            float:right;
+             margin-left: 1px;
+             box-shadow: slategray 0.45em 0.45em 0.45em;
+        
+            } 
+
+            .folk5{
+            
+                border-style: dotted;
+                float:right;
+                 margin-left: 1px;
+                 margin-top: 0em;
+                 box-shadow: slategray 0.5em 0.5em 0.5em;
+   
+                }
+
+                .ref{
+                    float:left;
+                    margin-bottom: 1em;
+                }
+                
+                figure{
+                    float:right;
+                    font-family:cursive;
+                    margin-top: 0px;
+                    position: right;
+                }
+                .figcap2{
+            padding:2em 1em 1em 2em;
+                margin-right: .5em;
+                }
+                .figcap{
+                    padding:0.5em 8em 1em 5em;
+                margin-right: 5em;
+                }
+                }
